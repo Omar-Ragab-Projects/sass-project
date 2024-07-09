@@ -1,0 +1,16 @@
+.main-button {
+  display: block;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgba($redColor, 0.9);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color: $redColor;
+  }
+  @media #{$maxMedium} {
+    width: 100%;
+  }
+}

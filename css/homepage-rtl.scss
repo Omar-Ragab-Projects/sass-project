@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  .header .container .navbar.show {
+    left: 15px;
+    right: auto;
+  }
+}
+@media (max-width: 767px) {
+  .header .container .navbar li a {
+    text-align: left;
+  }
+}
